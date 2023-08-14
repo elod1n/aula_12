@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu {
+    text-align: center;
+    padding: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu ul li:last-child {
+    margin-right: 0;
+}
+
+#menu ul li a {
+    background-color: black; 
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.section {
+    text-align: center;
+    padding: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+}
+
+.text-section {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    display: inline-block;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
