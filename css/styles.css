@@ -8,10 +8,13 @@ body {
 }
 
 main {
-    background-image: url("../images/text_background.jpg"); /* Caminho correto para a imagem */
-    background-size: cover;
+    background-image: url("../images/text_background.jpg"); 
+    background-size: 1200px auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0 20px; 
+    box-sizing: border-box;
 }
 
 #header {
